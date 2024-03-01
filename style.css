@@ -7,9 +7,10 @@
     box-sizing: border-box;
 }
 body {
-    border: 1px solid red;
-    width: 360px;
-    height: auto;
+    background-image: url(./Assets/Bg/bg1.jpg);
+    /*background: #F2C4C4;*/
+    width:100%;
+    height: 100vh;
     margin: auto;
     font-family: "Noto Sans", sans-serif;
 }
@@ -51,12 +52,12 @@ body {
 }
 
 .texto h3 {
-    font-size: 5px;
+    font-size: 7px;
     font-weight: 300;
     color: #ffff;
     position: absolute;
-    top: 65%;
-    left: 114px;
+    top: 59%;
+    left: 89px;
 }
 
 .jmm {
@@ -118,21 +119,21 @@ body {
 
 .faixa2 h1 {
    
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     color: #ffff;
     position: absolute;
-    top: 8%;
+    top: 1%;
     left: 140px;
 }
 
 .faixa2 h3 {
-    font-size: 7px;
+    font-size: 9px;
     font-weight: 200;
     color: #ffff;
     position: absolute;
-    top: 60%;
-    left: 95px;   
+    top: 58%;
+    left: 68px;   
 }
 
 .bandeira-pais {
@@ -208,7 +209,7 @@ body {
     align-items: center;
 }
 .participar {
-    font-size: 8px;
+    font-size: 9px;
     margin-left: 5px;
     color: #007DB1;
 }
@@ -217,7 +218,7 @@ body {
     margin-left: 10px;
 }
 .ore {
-    font-size: 8px;
+    font-size: 9px;
     margin: 0px 0px 5px 65px;
     color: #005E85;
 }
@@ -226,7 +227,7 @@ body {
     align-items: center;
 }
 .participar {
-    font-size: 8px;
+    font-size: 10px;
     margin: 0px 5px;
 }
 .participar-img {
@@ -237,7 +238,7 @@ body {
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
 }
 .ofertar {
-    font-size: 8px;
+    font-size: 9px;
     margin: 0px 0px 5px 60px;
     color: #005E85;
 }
@@ -246,7 +247,7 @@ body {
     align-items: center;
 }
 .participar {
-    font-size: 8px;
+    font-size: 9px;
     margin-left: 5px;
 }
 .action-img {
@@ -254,9 +255,9 @@ body {
     margin-left: 10px;
     border: 0.5px solid blue;
     border-radius: 10px;
-}
+}   
 .mobilizar {
-    font-size: 8px;
+    font-size: 9px;
     margin: 0px 0px 5px 60px;
     color: #005E85;;
 }
@@ -265,7 +266,7 @@ body {
     align-items: center;
 }
 .participar {
-    font-size: 8px;
+    font-size: 9px;
     margin-left: 5px;
    
 }
@@ -274,13 +275,14 @@ body {
     margin-left: 10px;
 }
 .ir {
-    font-size: 8px;
+    font-size: 9px;
     margin: 0px 0px 5px 65px;
     color: #005E85;
 }
 
 .prefooter {
     display: flex;
+    margin: 20px 0px;
 }
 
 .logo-campanha2 {
@@ -291,10 +293,6 @@ body {
 .banner-blue2 {
     width: 310px;    
     height: 30px;    
-}
-
-.asiatico-img {
-    height: 80px;
 }
 
 .portas-abertas {
@@ -310,6 +308,7 @@ body {
     color: #007DB1;  
     justify-content: center;
     align-items: center;
+    margin: 20px 0px;
 }
 
 .dados {
@@ -424,37 +423,37 @@ body {
 }
 
 .pib {
-    height: 20px;
+    height: 25px;
 }
 
 .pibnome {
-    font-size: 9px;
+    font-size: 10px;
     color: #005E85;
     
 }
 
 .estatistica1 {
     display: grid;
-    grid-template-columns: 90px 90px 90px;
-    grid-template-rows: 20px 20px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 25px 25px;
     grid-template-areas: 
     'estatistica2 estatistica3 estatistica4';
     color: #007DB1;  
     justify-content: center;
     align-items: first baseline;
-    line-height: 7px;
-    margin-top: 10px;
+    line-height: 11px;
+    margin: 20px 0px;
 
 }
 
 .estatistica1 p {
     color: #845a27;
-    font-size: 6px;
+    font-size: 10px;
 }
 
 .estatistica1 h1 {
     color: #3a2101;
-    font-size: 7px;
+    font-size: 12px;
 }
 
 .estatistica2 {
