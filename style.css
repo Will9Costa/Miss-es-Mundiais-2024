@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: "Noto Sans", sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    border: 1px solid red;
+    width: 360px;
+    height: auto;
+    margin: auto;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.cabeçalho {
+    display: flex;
+    width: 360px;
+}
+
+.banner-blue { 
+    position: relative;
+    width: 100%;    
+    height: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.faixa {
+    width: 360px;
+    height: auto;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 50px;     
+}
+
+.texto h1 {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #ffff;
+    position: absolute;
+    top: 10%;
+    left: 80px;
+}
+
+.texto h3 {
+    font-size: 5px;
+    font-weight: 300;
+    color: #ffff;
+    position: absolute;
+    top: 65%;
+    left: 114px;
+}
+
+.jmm {
+    width: 65px;
+    height: 20px;   
+    position: absolute;
+    right: 20px; 
+}
+
+.dividir {
+    border-top: 1px solid  #005d853d;
+    margin: 10px 80px;
+}
+
+.estatistica {
+    display: inline-block;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-around;
+}
+
+.resultado {
+    display: inline-flex;
+    font-size: 8px;
+}
+
+.video1 {
+    display: flex;
+    width: 320px;
+    height: 200px;
+    justify-content: center;
+    margin: 30px auto;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.video-criança {
+    display: flex;
+}
+
+.video1 {
+    width: 200px;
+    height: 100px;
+}
+
+.criança {
+    height: 150px; 
+}
+
+.faixa2 {
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+}
+
+.faixa2 img {
+    width: 360px;
+    height: auto;
+}
+
+.faixa2 h1 {
+   
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffff;
+    position: absolute;
+    top: 8%;
+    left: 140px;
+}
+
+.faixa2 h3 {
+    font-size: 7px;
+    font-weight: 200;
+    color: #ffff;
+    position: absolute;
+    top: 60%;
+    left: 95px;   
+}
+
+.bandeira-pais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    color: #005E85;
+}
+
+.bandeira-pais h3 {
+    font-size: 10px;
+
+}
+
+.bandeira {
+    width: 20px;
+    border-radius: 50%;
+}
+
+.video-testemunho {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+  
+}
+
+.banner-logo{
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.banner3 {
+
+  
+    width: 155px;
+    
+}
+
+.logo-campanha {
+    height: 25px;
+    margin: 5px;
+}
+
+.envolver {
+    display: flex;
+    align-items: center;
+}
+
+.envolver h1 {
+    font-size: 100px;
+    margin-left: 10px;
+    color: #005E85
+    
+}
+
+.envolver h3 {
+    font-size: 12px;
+    padding: 10px 10px;
+    color: #007DB1;
+}
+.envolver img {   
+    height: 130px;  
+    margin: 0px 10px; 
+}
+.oração {
+    display: flex;
+    align-items: center;
+}
+.participar {
+    font-size: 8px;
+    margin-left: 5px;
+    color: #007DB1;
+}
+.participar-img {
+    height: 80px;
+    margin-left: 10px;
+}
+.ore {
+    font-size: 8px;
+    margin: 0px 0px 5px 65px;
+    color: #005E85;
+}
+.oferte {
+    display: flex;
+    align-items: center;
+}
+.participar {
+    font-size: 8px;
+    margin: 0px 5px;
+}
+.participar-img {
+    height: 80px;
+    margin-left: 10px;
+    border: 0.5px solid blue;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.ofertar {
+    font-size: 8px;
+    margin: 0px 0px 5px 60px;
+    color: #005E85;
+}
+.mobilize {
+    display: flex;
+    align-items: center;
+}
+.participar {
+    font-size: 8px;
+    margin-left: 5px;
+}
+.action-img {
+    height: 105px;
+    margin-left: 10px;
+    border: 0.5px solid blue;
+    border-radius: 10px;
+}
+.mobilizar {
+    font-size: 8px;
+    margin: 0px 0px 5px 60px;
+    color: #005E85;;
+}
+.va {
+    display: flex;
+    align-items: center;
+}
+.participar {
+    font-size: 8px;
+    margin-left: 5px;
+   
+}
+.participar-img {
+    height: 80px;
+    margin-left: 10px;
+}
+.ir {
+    font-size: 8px;
+    margin: 0px 0px 5px 65px;
+    color: #005E85;
+}
+
+.prefooter {
+    display: flex;
+}
+
+.logo-campanha2 {
+    height: 25px;
+    margin: 5px;
+}
+
+.banner-blue2 {
+    width: 310px;    
+    height: 30px;    
+}
+
+.asiatico-img {
+    height: 80px;
+}
+
+.portas-abertas {
+    
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-areas: 
+    'dados dados'
+    'ação auxilio'
+    'treinamento biblia';
+    gap: 10px;
+    color: #007DB1;  
+    justify-content: center;
+    align-items: center;
+}
+
+.dados {
+    border: 0.5px solid #007DB1;
+    border-radius: 10px; 
+    width: 350px;
+    height: 50px;
+    grid-column: 1/3;
+    grid-area: dados;
+    font-size: 9px;
+    justify-self: center;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.numero {
+    font-size: 10px;
+    justify-self: center;
+    text-align: center;  
+    align-self: center;
+}
+
+.texto {
+    font-size: 8px;
+    justify-self: center;
+    text-align: center;
+    align-self: center;  
+    
+}
+
+.ação {
+    border: 0.5px solid #007DB1;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    grid-area: ação;
+    margin-top: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+.auxilio {
+    border: 0.5px solid #007DB1;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px; 
+    grid-area: auxilio;
+    margin-top: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.treinamento {
+    border: 0.5px solid #007DB1;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px; 
+    grid-area: treinamento;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+   
+}
+
+.biblia {
+    border: 0.5px solid #007DB1;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px; 
+    grid-area: biblia;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+.banner-blue4 img {
+    width: 360px;
+    height: 30px;      
+}
+
+.banner-blue4 {
+    position: relative;
+    margin: 20px 0px;
+
+}
+
+
+.perseguir {
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    top: 8px;
+    left: 65px;
+    
+}
+
+.lista {
+    display: flex;
+    width: 320px;
+    height: 200px;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.footer {
+
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.pib {
+    height: 20px;
+}
+
+.pibnome {
+    font-size: 9px;
+    color: #005E85;
+    
+}
+
+.estatistica1 {
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 20px 20px;
+    grid-template-areas: 
+    'estatistica2 estatistica3 estatistica4';
+    color: #007DB1;  
+    justify-content: center;
+    align-items: first baseline;
+    line-height: 7px;
+    margin-top: 10px;
+
+}
+
+.estatistica1 p {
+    color: #845a27;
+    font-size: 6px;
+}
+
+.estatistica1 h1 {
+    color: #3a2101;
+    font-size: 7px;
+}
+
+.estatistica2 {
+    grid-area: estatistica2;
+    text-align: center;
+}
+
+.estatistica3 {
+    grid-area: estatistica3;
+    text-align: center;
+}
+
+.estatistica4 {
+    grid-area: estatistica4;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
